@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "734613764177",
+    "firebase_url": "https://hopes-a132e.firebaseio.com",
+    "project_id": "hopes-a132e",
+    "storage_bucket": "hopes-a132e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:734613764177:android:316ce9e97fa0101d",
+        "android_client_info": {
+          "package_name": "vulnwalker.codes.hopes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "734613764177-k6m8s7l8m842ju8s5p3f1kim3ftgafm9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "vulnwalker.codes.hopes",
+            "certificate_hash": "e08850fc3b27886e0aa42ab266483e81543fb075"
+          }
+        },
+        {
+          "client_id": "734613764177-7gqsl4o06s0mctlagu2b25bae4vuqt0u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPI76ChPxnMxTZCh8Uxt_HU0Q2CznRkRY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "734613764177-7gqsl4o06s0mctlagu2b25bae4vuqt0u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
