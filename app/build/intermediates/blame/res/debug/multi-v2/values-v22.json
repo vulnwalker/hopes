@@ -4,7 +4,7 @@
             "outputFile": "/home/kszxpo/AndroidStudioProjects/hopes/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v22/values-v22.xml",
             "map": [
                 {
-                    "source": "/root/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/1175458ecfc2a59de5b1d141f51402ed/res/values-v22/values-v22.xml",
+                    "source": "/root/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/c19be1ebc627ff456d3d13c0dcc97c19/res/values-v22/values-v22.xml",
                     "from": {
                         "startLines": "2,3,4,9",
                         "startColumns": "4,4,4,4",

@@ -16,8 +16,6 @@ import android.widget.Spinner
 import android.widget.ArrayAdapter
 
 
-
-
 class MainMenu : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener {
 
     override fun onCreate(savedInstanceState: Bundle?) {

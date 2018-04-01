@@ -13,7 +13,9 @@
         android:label="Tests for vulnwalker.codes.hopes"
         android:targetPackage="vulnwalker.codes.hopes" />
 
-    <application android:debuggable="true" >
+    <application
+        android:debuggable="true"
+        android:label="Intents" >
         <uses-library android:name="android.test.runner" />
     </application>
 

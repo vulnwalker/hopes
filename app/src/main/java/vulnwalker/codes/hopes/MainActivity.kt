@@ -26,7 +26,7 @@ class MainActivity : AppCompatActivity(){
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        checkLogin()
+//        checkLogin()
         buttonLogin.setOnClickListener{
             databaseHelper.sqlDelete("member"," 1=1")
             login(email.text,password.text)
