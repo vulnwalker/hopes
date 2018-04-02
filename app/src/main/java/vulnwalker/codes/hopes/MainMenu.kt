@@ -34,11 +34,7 @@ class MainMenu : AppCompatActivity(), NavigationView.OnNavigationItemSelectedLis
 
         nav_view.setNavigationItemSelectedListener(this)
         val listAccount = arrayOf("SLOT 1", "SLOT 2", "SLOT 3", "SLOT 4", "SLOT 5", "SLOT 6")
-        val spin1 = findViewById<Spinner>(R.id.cmbAccount)
-////        spin1.onItemSelectedListener = this as OnItemSelectedListener
-//        val adapter = ArrayAdapter(this@MainMenu, android.R.layout.simple_spinner_item, listAccount)
-//        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
-//        spin1.setAdapter(adapter);
+
     }
 
     override fun onBackPressed() {
