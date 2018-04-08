@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/kszxpo/AndroidStudioProjects/hopes/app/src/main/AndroidManifest.xml:2:1-29:12
-INJECTED from /home/kszxpo/AndroidStudioProjects/hopes/app/src/main/AndroidManifest.xml:2:1-29:12
-INJECTED from /home/kszxpo/AndroidStudioProjects/hopes/app/src/main/AndroidManifest.xml:2:1-29:12
-INJECTED from /home/kszxpo/AndroidStudioProjects/hopes/app/src/main/AndroidManifest.xml:2:1-29:12
+ADDED from /root/AndroidStudioProjects/hopes/app/src/main/AndroidManifest.xml:2:1-32:12
+INJECTED from /root/AndroidStudioProjects/hopes/app/src/main/AndroidManifest.xml:2:1-32:12
+INJECTED from /root/AndroidStudioProjects/hopes/app/src/main/AndroidManifest.xml:2:1-32:12
+INJECTED from /root/AndroidStudioProjects/hopes/app/src/main/AndroidManifest.xml:2:1-32:12
 MERGED from [com.android.support:cardview-v7:26.1.0] /root/.gradle/caches/transforms-1/files-1.1/cardview-v7-26.1.0.aar/536b0cd1c8f6e583aeabc0985b1cc8d3/AndroidManifest.xml:17:1-28:12
 MERGED from [com.android.volley:volley:1.0.0] /root/.gradle/caches/transforms-1/files-1.1/volley-1.0.0.aar/72fee97fd7bed2db1dac4b28ab5d15bc/AndroidManifest.xml:2:1-11:12
 MERGED from [com.github.Shashank02051997:FancyToast-Android:0.1.3] /root/.gradle/caches/transforms-1/files-1.1/FancyToast-Android-0.1.3.aar/fd247a82102ce430a398bb1b816d1b4f/AndroidManifest.xml:2:1-17:12
@@ -18,18 +18,18 @@ MERGED from [com.mindorks:placeholderview:0.6.1] /root/.gradle/caches/transforms
 MERGED from [com.android.support:recyclerview-v7:26.1.0] /root/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/b3e3e44ac0bb05d5b65c79347be2ace7/AndroidManifest.xml:17:1-28:12
 MERGED from [com.android.support:animated-vector-drawable:26.1.0] /root/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/141a582513861e35012f468a95b09d97/AndroidManifest.xml:17:1-28:12
 MERGED from [com.android.support:support-vector-drawable:26.1.0] /root/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/bd0698ff4ca0573c12e4d524dd2e68cd/AndroidManifest.xml:17:1-28:12
-MERGED from [com.jakewharton:butterknife:8.6.0] /root/.gradle/caches/transforms-1/files-1.1/butterknife-8.6.0.aar/a8a879a6efa7d958e475d42410fea3a7/AndroidManifest.xml:2:1-7:12
-MERGED from [com.jakewharton.timber:timber:4.5.1] /root/.gradle/caches/transforms-1/files-1.1/timber-4.5.1.aar/da3bc5ab8d26677caa5be3dcc5c4ff80/AndroidManifest.xml:2:1-10:12
-MERGED from [com.google.firebase:firebase-analytics:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.0.4.aar/493da888bd341af980faccdf7b2d8902/AndroidManifest.xml:16:1-35:12
-MERGED from [net.zetetic:android-database-sqlcipher:3.5.7] /root/.gradle/caches/transforms-1/files-1.1/android-database-sqlcipher-3.5.7.aar/f88b2584b0e47cf669b2ccc5cd2932e6/AndroidManifest.xml:2:1-4:12
-MERGED from [android.arch.persistence.room:runtime:1.0.0] /root/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/37cdbbe463a77d2ce57f9983734664d0/AndroidManifest.xml:17:1-24:12
 MERGED from [com.android.support:transition:26.1.0] /root/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/92ccd3b7a5e82930f338a569ec2cdd4d/AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.firebase:firebase-analytics:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.0.4.aar/493da888bd341af980faccdf7b2d8902/AndroidManifest.xml:16:1-35:12
 MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.0.4.aar/1474291c947d95112a9195da0debae09/AndroidManifest.xml:16:1-29:12
 MERGED from [com.google.firebase:firebase-iid:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.0.4.aar/e94322db67c49755def1ef5b5dd4e95d/AndroidManifest.xml:16:1-50:12
 MERGED from [com.google.firebase:firebase-common:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/firebase-common-11.0.4.aar/b4b400a03c5d0ef1711f7e7869b2a42e/AndroidManifest.xml:2:1-8:12
 MERGED from [com.google.android.gms:play-services-tasks:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.0.4.aar/0a0b36162f2ff5fae63b58d0794ea3e9/AndroidManifest.xml:2:1-5:12
 MERGED from [com.google.android.gms:play-services-basement:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.0.4.aar/a8c7611f0d752d0ce0cc2b264b7d6bb9/AndroidManifest.xml:16:1-23:12
 MERGED from [com.android.support:support-v4:26.1.0] /root/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/f5cd82e8a6ecf71f75fa6a607805dabe/AndroidManifest.xml:17:1-31:12
+MERGED from [com.jakewharton:butterknife:8.6.0] /root/.gradle/caches/transforms-1/files-1.1/butterknife-8.6.0.aar/a8a879a6efa7d958e475d42410fea3a7/AndroidManifest.xml:2:1-7:12
+MERGED from [com.jakewharton.timber:timber:4.5.1] /root/.gradle/caches/transforms-1/files-1.1/timber-4.5.1.aar/da3bc5ab8d26677caa5be3dcc5c4ff80/AndroidManifest.xml:2:1-10:12
+MERGED from [net.zetetic:android-database-sqlcipher:3.5.7] /root/.gradle/caches/transforms-1/files-1.1/android-database-sqlcipher-3.5.7.aar/f88b2584b0e47cf669b2ccc5cd2932e6/AndroidManifest.xml:2:1-4:12
+MERGED from [android.arch.persistence.room:runtime:1.0.0] /root/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/37cdbbe463a77d2ce57f9983734664d0/AndroidManifest.xml:17:1-24:12
 MERGED from [com.android.support:support-fragment:26.1.0] /root/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/3cebbac7e604e20c64e8253d4a460865/AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-core-ui:26.1.0] /root/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/8a3f1926eb8820b2a167cfa31c09c091/AndroidManifest.xml:17:1-31:12
 MERGED from [android.arch.persistence:db-framework:1.0.0] /root/.gradle/caches/transforms-1/files-1.1/db-framework-1.0.0.aar/e21367b4d504f191164547a9461c7272/AndroidManifest.xml:17:1-24:12
@@ -39,25 +39,25 @@ MERGED from [com.android.support:support-media-compat:26.1.0] /root/.gradle/cach
 MERGED from [com.android.support:support-core-utils:26.1.0] /root/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/4a0fc56a70e81714cd5dcfb68c79b917/AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-compat:26.1.0] /root/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/20a47971d4795778330c5ba5c3b5a94a/AndroidManifest.xml:17:1-31:12
 MERGED from [android.arch.lifecycle:runtime:1.0.0] /root/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/70e58d65c943e651469829b8d5ad4824/AndroidManifest.xml:17:1-30:12
-INJECTED from /home/kszxpo/AndroidStudioProjects/hopes/app/src/main/AndroidManifest.xml:2:1-29:12
-INJECTED from /home/kszxpo/AndroidStudioProjects/hopes/app/src/main/AndroidManifest.xml:2:1-29:12
-INJECTED from /home/kszxpo/AndroidStudioProjects/hopes/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /root/AndroidStudioProjects/hopes/app/src/main/AndroidManifest.xml:2:1-32:12
+INJECTED from /root/AndroidStudioProjects/hopes/app/src/main/AndroidManifest.xml:2:1-32:12
+INJECTED from /root/AndroidStudioProjects/hopes/app/src/main/AndroidManifest.xml:2:1-32:12
 	package
-		ADDED from /home/kszxpo/AndroidStudioProjects/hopes/app/src/main/AndroidManifest.xml:3:5-37
-		INJECTED from /home/kszxpo/AndroidStudioProjects/hopes/app/src/main/AndroidManifest.xml
-		INJECTED from /home/kszxpo/AndroidStudioProjects/hopes/app/src/main/AndroidManifest.xml
+		ADDED from /root/AndroidStudioProjects/hopes/app/src/main/AndroidManifest.xml:3:5-37
+		INJECTED from /root/AndroidStudioProjects/hopes/app/src/main/AndroidManifest.xml
+		INJECTED from /root/AndroidStudioProjects/hopes/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /home/kszxpo/AndroidStudioProjects/hopes/app/src/main/AndroidManifest.xml
-		ADDED from /home/kszxpo/AndroidStudioProjects/hopes/app/src/main/AndroidManifest.xml:2:1-29:12
-		INJECTED from /home/kszxpo/AndroidStudioProjects/hopes/app/src/main/AndroidManifest.xml
+		INJECTED from /root/AndroidStudioProjects/hopes/app/src/main/AndroidManifest.xml
+		ADDED from /root/AndroidStudioProjects/hopes/app/src/main/AndroidManifest.xml:2:1-32:12
+		INJECTED from /root/AndroidStudioProjects/hopes/app/src/main/AndroidManifest.xml
 	android:versionCode
-		INJECTED from /home/kszxpo/AndroidStudioProjects/hopes/app/src/main/AndroidManifest.xml
-		ADDED from /home/kszxpo/AndroidStudioProjects/hopes/app/src/main/AndroidManifest.xml:2:1-29:12
-		INJECTED from /home/kszxpo/AndroidStudioProjects/hopes/app/src/main/AndroidManifest.xml
+		INJECTED from /root/AndroidStudioProjects/hopes/app/src/main/AndroidManifest.xml
+		ADDED from /root/AndroidStudioProjects/hopes/app/src/main/AndroidManifest.xml:2:1-32:12
+		INJECTED from /root/AndroidStudioProjects/hopes/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /home/kszxpo/AndroidStudioProjects/hopes/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /root/AndroidStudioProjects/hopes/app/src/main/AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
-ADDED from /home/kszxpo/AndroidStudioProjects/hopes/app/src/main/AndroidManifest.xml:4:5-67
+ADDED from /root/AndroidStudioProjects/hopes/app/src/main/AndroidManifest.xml:5:5-67
 MERGED from [com.amitshekhar.android:debug-db:1.0.3] /root/.gradle/caches/transforms-1/files-1.1/debug-db-1.0.3.aar/8e865c7c79439254ef5a883f48c61070/AndroidManifest.xml:29:5-67
 MERGED from [com.amitshekhar.android:debug-db:1.0.3] /root/.gradle/caches/transforms-1/files-1.1/debug-db-1.0.3.aar/8e865c7c79439254ef5a883f48c61070/AndroidManifest.xml:29:5-67
 MERGED from [com.google.firebase:firebase-analytics:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.0.4.aar/493da888bd341af980faccdf7b2d8902/AndroidManifest.xml:20:5-66
@@ -67,17 +67,17 @@ MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] /root/.gradle/c
 MERGED from [com.google.firebase:firebase-iid:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.0.4.aar/e94322db67c49755def1ef5b5dd4e95d/AndroidManifest.xml:20:5-66
 MERGED from [com.google.firebase:firebase-iid:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.0.4.aar/e94322db67c49755def1ef5b5dd4e95d/AndroidManifest.xml:20:5-66
 	android:name
-		ADDED from /home/kszxpo/AndroidStudioProjects/hopes/app/src/main/AndroidManifest.xml:4:22-64
+		ADDED from /root/AndroidStudioProjects/hopes/app/src/main/AndroidManifest.xml:5:22-64
 uses-permission#android.permission.VIBRATE
-ADDED from /home/kszxpo/AndroidStudioProjects/hopes/app/src/main/AndroidManifest.xml:5:5-66
+ADDED from /root/AndroidStudioProjects/hopes/app/src/main/AndroidManifest.xml:6:5-66
 	android:name
-		ADDED from /home/kszxpo/AndroidStudioProjects/hopes/app/src/main/AndroidManifest.xml:5:22-63
+		ADDED from /root/AndroidStudioProjects/hopes/app/src/main/AndroidManifest.xml:6:22-63
 uses-permission#android.permission.READ_PHONE_STATE
-ADDED from /home/kszxpo/AndroidStudioProjects/hopes/app/src/main/AndroidManifest.xml:6:5-75
+ADDED from /root/AndroidStudioProjects/hopes/app/src/main/AndroidManifest.xml:7:5-75
 	android:name
-		ADDED from /home/kszxpo/AndroidStudioProjects/hopes/app/src/main/AndroidManifest.xml:6:22-72
+		ADDED from /root/AndroidStudioProjects/hopes/app/src/main/AndroidManifest.xml:7:22-72
 application
-ADDED from /home/kszxpo/AndroidStudioProjects/hopes/app/src/main/AndroidManifest.xml:7:5-27:19
+ADDED from /root/AndroidStudioProjects/hopes/app/src/main/AndroidManifest.xml:9:5-30:19
 MERGED from [com.android.support:cardview-v7:26.1.0] /root/.gradle/caches/transforms-1/files-1.1/cardview-v7-26.1.0.aar/536b0cd1c8f6e583aeabc0985b1cc8d3/AndroidManifest.xml:22:5-26:19
 MERGED from [com.android.support:cardview-v7:26.1.0] /root/.gradle/caches/transforms-1/files-1.1/cardview-v7-26.1.0.aar/536b0cd1c8f6e583aeabc0985b1cc8d3/AndroidManifest.xml:22:5-26:19
 MERGED from [com.android.volley:volley:1.0.0] /root/.gradle/caches/transforms-1/files-1.1/volley-1.0.0.aar/72fee97fd7bed2db1dac4b28ab5d15bc/AndroidManifest.xml:9:5-20
@@ -104,12 +104,10 @@ MERGED from [com.android.support:animated-vector-drawable:26.1.0] /root/.gradle/
 MERGED from [com.android.support:animated-vector-drawable:26.1.0] /root/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/141a582513861e35012f468a95b09d97/AndroidManifest.xml:22:5-26:19
 MERGED from [com.android.support:support-vector-drawable:26.1.0] /root/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/bd0698ff4ca0573c12e4d524dd2e68cd/AndroidManifest.xml:22:5-26:19
 MERGED from [com.android.support:support-vector-drawable:26.1.0] /root/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/bd0698ff4ca0573c12e4d524dd2e68cd/AndroidManifest.xml:22:5-26:19
-MERGED from [com.jakewharton.timber:timber:4.5.1] /root/.gradle/caches/transforms-1/files-1.1/timber-4.5.1.aar/da3bc5ab8d26677caa5be3dcc5c4ff80/AndroidManifest.xml:8:5-20
-MERGED from [com.jakewharton.timber:timber:4.5.1] /root/.gradle/caches/transforms-1/files-1.1/timber-4.5.1.aar/da3bc5ab8d26677caa5be3dcc5c4ff80/AndroidManifest.xml:8:5-20
-MERGED from [com.google.firebase:firebase-analytics:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.0.4.aar/493da888bd341af980faccdf7b2d8902/AndroidManifest.xml:24:5-34:19
-MERGED from [com.google.firebase:firebase-analytics:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.0.4.aar/493da888bd341af980faccdf7b2d8902/AndroidManifest.xml:24:5-34:19
 MERGED from [com.android.support:transition:26.1.0] /root/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/92ccd3b7a5e82930f338a569ec2cdd4d/AndroidManifest.xml:22:5-26:19
 MERGED from [com.android.support:transition:26.1.0] /root/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/92ccd3b7a5e82930f338a569ec2cdd4d/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.firebase:firebase-analytics:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.0.4.aar/493da888bd341af980faccdf7b2d8902/AndroidManifest.xml:24:5-34:19
+MERGED from [com.google.firebase:firebase-analytics:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.0.4.aar/493da888bd341af980faccdf7b2d8902/AndroidManifest.xml:24:5-34:19
 MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.0.4.aar/1474291c947d95112a9195da0debae09/AndroidManifest.xml:24:5-28:19
 MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.0.4.aar/1474291c947d95112a9195da0debae09/AndroidManifest.xml:24:5-28:19
 MERGED from [com.google.firebase:firebase-iid:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.0.4.aar/e94322db67c49755def1ef5b5dd4e95d/AndroidManifest.xml:28:5-49:19
@@ -122,6 +120,8 @@ MERGED from [com.google.android.gms:play-services-basement:11.0.4] /root/.gradle
 MERGED from [com.google.android.gms:play-services-basement:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.0.4.aar/a8c7611f0d752d0ce0cc2b264b7d6bb9/AndroidManifest.xml:19:5-21:19
 MERGED from [com.android.support:support-v4:26.1.0] /root/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/f5cd82e8a6ecf71f75fa6a607805dabe/AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:support-v4:26.1.0] /root/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/f5cd82e8a6ecf71f75fa6a607805dabe/AndroidManifest.xml:25:5-29:19
+MERGED from [com.jakewharton.timber:timber:4.5.1] /root/.gradle/caches/transforms-1/files-1.1/timber-4.5.1.aar/da3bc5ab8d26677caa5be3dcc5c4ff80/AndroidManifest.xml:8:5-20
+MERGED from [com.jakewharton.timber:timber:4.5.1] /root/.gradle/caches/transforms-1/files-1.1/timber-4.5.1.aar/da3bc5ab8d26677caa5be3dcc5c4ff80/AndroidManifest.xml:8:5-20
 MERGED from [com.android.support:support-fragment:26.1.0] /root/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/3cebbac7e604e20c64e8253d4a460865/AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:support-fragment:26.1.0] /root/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/3cebbac7e604e20c64e8253d4a460865/AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:support-core-ui:26.1.0] /root/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/8a3f1926eb8820b2a167cfa31c09c091/AndroidManifest.xml:25:5-29:19
@@ -135,45 +135,49 @@ MERGED from [com.android.support:support-compat:26.1.0] /root/.gradle/caches/tra
 MERGED from [android.arch.lifecycle:runtime:1.0.0] /root/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/70e58d65c943e651469829b8d5ad4824/AndroidManifest.xml:24:5-28:19
 MERGED from [android.arch.lifecycle:runtime:1.0.0] /root/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/70e58d65c943e651469829b8d5ad4824/AndroidManifest.xml:24:5-28:19
 	android:supportsRtl
-		ADDED from /home/kszxpo/AndroidStudioProjects/hopes/app/src/main/AndroidManifest.xml:12:9-35
+		ADDED from /root/AndroidStudioProjects/hopes/app/src/main/AndroidManifest.xml:14:9-35
 	android:label
-		ADDED from /home/kszxpo/AndroidStudioProjects/hopes/app/src/main/AndroidManifest.xml:10:9-41
+		ADDED from /root/AndroidStudioProjects/hopes/app/src/main/AndroidManifest.xml:12:9-41
 	android:roundIcon
-		ADDED from /home/kszxpo/AndroidStudioProjects/hopes/app/src/main/AndroidManifest.xml:11:9-54
+		ADDED from /root/AndroidStudioProjects/hopes/app/src/main/AndroidManifest.xml:13:9-54
 	android:icon
-		ADDED from /home/kszxpo/AndroidStudioProjects/hopes/app/src/main/AndroidManifest.xml:9:9-38
+		ADDED from /root/AndroidStudioProjects/hopes/app/src/main/AndroidManifest.xml:11:9-38
 	android:allowBackup
-		ADDED from /home/kszxpo/AndroidStudioProjects/hopes/app/src/main/AndroidManifest.xml:8:9-35
+		ADDED from /root/AndroidStudioProjects/hopes/app/src/main/AndroidManifest.xml:10:9-35
 	android:theme
-		ADDED from /home/kszxpo/AndroidStudioProjects/hopes/app/src/main/AndroidManifest.xml:13:9-40
+		ADDED from /root/AndroidStudioProjects/hopes/app/src/main/AndroidManifest.xml:15:9-40
 activity#vulnwalker.codes.hopes.MainActivity
-ADDED from /home/kszxpo/AndroidStudioProjects/hopes/app/src/main/AndroidManifest.xml:14:9-22:20
+ADDED from /root/AndroidStudioProjects/hopes/app/src/main/AndroidManifest.xml:16:9-24:20
 	android:theme
-		ADDED from /home/kszxpo/AndroidStudioProjects/hopes/app/src/main/AndroidManifest.xml:16:13-69
+		ADDED from /root/AndroidStudioProjects/hopes/app/src/main/AndroidManifest.xml:18:13-69
 	android:name
-		ADDED from /home/kszxpo/AndroidStudioProjects/hopes/app/src/main/AndroidManifest.xml:15:13-41
+		ADDED from /root/AndroidStudioProjects/hopes/app/src/main/AndroidManifest.xml:17:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /home/kszxpo/AndroidStudioProjects/hopes/app/src/main/AndroidManifest.xml:17:13-21:29
+ADDED from /root/AndroidStudioProjects/hopes/app/src/main/AndroidManifest.xml:19:13-23:29
 action#android.intent.action.MAIN
-ADDED from /home/kszxpo/AndroidStudioProjects/hopes/app/src/main/AndroidManifest.xml:18:17-69
+ADDED from /root/AndroidStudioProjects/hopes/app/src/main/AndroidManifest.xml:20:17-69
 	android:name
-		ADDED from /home/kszxpo/AndroidStudioProjects/hopes/app/src/main/AndroidManifest.xml:18:25-66
+		ADDED from /root/AndroidStudioProjects/hopes/app/src/main/AndroidManifest.xml:20:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/kszxpo/AndroidStudioProjects/hopes/app/src/main/AndroidManifest.xml:20:17-77
+ADDED from /root/AndroidStudioProjects/hopes/app/src/main/AndroidManifest.xml:22:17-77
 	android:name
-		ADDED from /home/kszxpo/AndroidStudioProjects/hopes/app/src/main/AndroidManifest.xml:20:27-74
+		ADDED from /root/AndroidStudioProjects/hopes/app/src/main/AndroidManifest.xml:22:27-74
 activity#vulnwalker.codes.hopes.MainMenu
-ADDED from /home/kszxpo/AndroidStudioProjects/hopes/app/src/main/AndroidManifest.xml:23:9-26:68
+ADDED from /root/AndroidStudioProjects/hopes/app/src/main/AndroidManifest.xml:25:9-28:59
 	android:label
-		ADDED from /home/kszxpo/AndroidStudioProjects/hopes/app/src/main/AndroidManifest.xml:25:13-61
+		ADDED from /root/AndroidStudioProjects/hopes/app/src/main/AndroidManifest.xml:27:13-61
 	android:theme
-		ADDED from /home/kszxpo/AndroidStudioProjects/hopes/app/src/main/AndroidManifest.xml:26:13-56
+		ADDED from /root/AndroidStudioProjects/hopes/app/src/main/AndroidManifest.xml:28:13-56
 	android:name
-		ADDED from /home/kszxpo/AndroidStudioProjects/hopes/app/src/main/AndroidManifest.xml:24:13-37
+		ADDED from /root/AndroidStudioProjects/hopes/app/src/main/AndroidManifest.xml:26:13-37
+activity#vulnwalker.codes.hopes.ui.accountForm
+ADDED from /root/AndroidStudioProjects/hopes/app/src/main/AndroidManifest.xml:29:9-61
+	android:name
+		ADDED from /root/AndroidStudioProjects/hopes/app/src/main/AndroidManifest.xml:29:19-49
 uses-sdk
-INJECTED from /home/kszxpo/AndroidStudioProjects/hopes/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /home/kszxpo/AndroidStudioProjects/hopes/app/src/main/AndroidManifest.xml
-INJECTED from /home/kszxpo/AndroidStudioProjects/hopes/app/src/main/AndroidManifest.xml
+INJECTED from /root/AndroidStudioProjects/hopes/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /root/AndroidStudioProjects/hopes/app/src/main/AndroidManifest.xml
+INJECTED from /root/AndroidStudioProjects/hopes/app/src/main/AndroidManifest.xml
 MERGED from [com.android.support:cardview-v7:26.1.0] /root/.gradle/caches/transforms-1/files-1.1/cardview-v7-26.1.0.aar/536b0cd1c8f6e583aeabc0985b1cc8d3/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:cardview-v7:26.1.0] /root/.gradle/caches/transforms-1/files-1.1/cardview-v7-26.1.0.aar/536b0cd1c8f6e583aeabc0985b1cc8d3/AndroidManifest.xml:20:5-44
 MERGED from [com.android.volley:volley:1.0.0] /root/.gradle/caches/transforms-1/files-1.1/volley-1.0.0.aar/72fee97fd7bed2db1dac4b28ab5d15bc/AndroidManifest.xml:7:5-43
@@ -202,18 +206,10 @@ MERGED from [com.android.support:animated-vector-drawable:26.1.0] /root/.gradle/
 MERGED from [com.android.support:animated-vector-drawable:26.1.0] /root/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/141a582513861e35012f468a95b09d97/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-vector-drawable:26.1.0] /root/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/bd0698ff4ca0573c12e4d524dd2e68cd/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-vector-drawable:26.1.0] /root/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/bd0698ff4ca0573c12e4d524dd2e68cd/AndroidManifest.xml:20:5-44
-MERGED from [com.jakewharton:butterknife:8.6.0] /root/.gradle/caches/transforms-1/files-1.1/butterknife-8.6.0.aar/a8a879a6efa7d958e475d42410fea3a7/AndroidManifest.xml:5:5-43
-MERGED from [com.jakewharton:butterknife:8.6.0] /root/.gradle/caches/transforms-1/files-1.1/butterknife-8.6.0.aar/a8a879a6efa7d958e475d42410fea3a7/AndroidManifest.xml:5:5-43
-MERGED from [com.jakewharton.timber:timber:4.5.1] /root/.gradle/caches/transforms-1/files-1.1/timber-4.5.1.aar/da3bc5ab8d26677caa5be3dcc5c4ff80/AndroidManifest.xml:6:5-43
-MERGED from [com.jakewharton.timber:timber:4.5.1] /root/.gradle/caches/transforms-1/files-1.1/timber-4.5.1.aar/da3bc5ab8d26677caa5be3dcc5c4ff80/AndroidManifest.xml:6:5-43
-MERGED from [com.google.firebase:firebase-analytics:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.0.4.aar/493da888bd341af980faccdf7b2d8902/AndroidManifest.xml:17:5-43
-MERGED from [com.google.firebase:firebase-analytics:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.0.4.aar/493da888bd341af980faccdf7b2d8902/AndroidManifest.xml:17:5-43
-MERGED from [net.zetetic:android-database-sqlcipher:3.5.7] /root/.gradle/caches/transforms-1/files-1.1/android-database-sqlcipher-3.5.7.aar/f88b2584b0e47cf669b2ccc5cd2932e6/AndroidManifest.xml:3:3-40
-MERGED from [net.zetetic:android-database-sqlcipher:3.5.7] /root/.gradle/caches/transforms-1/files-1.1/android-database-sqlcipher-3.5.7.aar/f88b2584b0e47cf669b2ccc5cd2932e6/AndroidManifest.xml:3:3-40
-MERGED from [android.arch.persistence.room:runtime:1.0.0] /root/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/37cdbbe463a77d2ce57f9983734664d0/AndroidManifest.xml:20:5-22:41
-MERGED from [android.arch.persistence.room:runtime:1.0.0] /root/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/37cdbbe463a77d2ce57f9983734664d0/AndroidManifest.xml:20:5-22:41
 MERGED from [com.android.support:transition:26.1.0] /root/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/92ccd3b7a5e82930f338a569ec2cdd4d/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:transition:26.1.0] /root/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/92ccd3b7a5e82930f338a569ec2cdd4d/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.0.4.aar/493da888bd341af980faccdf7b2d8902/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.0.4.aar/493da888bd341af980faccdf7b2d8902/AndroidManifest.xml:17:5-43
 MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.0.4.aar/1474291c947d95112a9195da0debae09/AndroidManifest.xml:17:5-43
 MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.0.4.aar/1474291c947d95112a9195da0debae09/AndroidManifest.xml:17:5-43
 MERGED from [com.google.firebase:firebase-iid:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.0.4.aar/e94322db67c49755def1ef5b5dd4e95d/AndroidManifest.xml:17:5-43
@@ -226,6 +222,14 @@ MERGED from [com.google.android.gms:play-services-basement:11.0.4] /root/.gradle
 MERGED from [com.google.android.gms:play-services-basement:11.0.4] /root/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.0.4.aar/a8c7611f0d752d0ce0cc2b264b7d6bb9/AndroidManifest.xml:17:5-43
 MERGED from [com.android.support:support-v4:26.1.0] /root/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/f5cd82e8a6ecf71f75fa6a607805dabe/AndroidManifest.xml:21:5-23:54
 MERGED from [com.android.support:support-v4:26.1.0] /root/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/f5cd82e8a6ecf71f75fa6a607805dabe/AndroidManifest.xml:21:5-23:54
+MERGED from [com.jakewharton:butterknife:8.6.0] /root/.gradle/caches/transforms-1/files-1.1/butterknife-8.6.0.aar/a8a879a6efa7d958e475d42410fea3a7/AndroidManifest.xml:5:5-43
+MERGED from [com.jakewharton:butterknife:8.6.0] /root/.gradle/caches/transforms-1/files-1.1/butterknife-8.6.0.aar/a8a879a6efa7d958e475d42410fea3a7/AndroidManifest.xml:5:5-43
+MERGED from [com.jakewharton.timber:timber:4.5.1] /root/.gradle/caches/transforms-1/files-1.1/timber-4.5.1.aar/da3bc5ab8d26677caa5be3dcc5c4ff80/AndroidManifest.xml:6:5-43
+MERGED from [com.jakewharton.timber:timber:4.5.1] /root/.gradle/caches/transforms-1/files-1.1/timber-4.5.1.aar/da3bc5ab8d26677caa5be3dcc5c4ff80/AndroidManifest.xml:6:5-43
+MERGED from [net.zetetic:android-database-sqlcipher:3.5.7] /root/.gradle/caches/transforms-1/files-1.1/android-database-sqlcipher-3.5.7.aar/f88b2584b0e47cf669b2ccc5cd2932e6/AndroidManifest.xml:3:3-40
+MERGED from [net.zetetic:android-database-sqlcipher:3.5.7] /root/.gradle/caches/transforms-1/files-1.1/android-database-sqlcipher-3.5.7.aar/f88b2584b0e47cf669b2ccc5cd2932e6/AndroidManifest.xml:3:3-40
+MERGED from [android.arch.persistence.room:runtime:1.0.0] /root/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/37cdbbe463a77d2ce57f9983734664d0/AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.persistence.room:runtime:1.0.0] /root/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/37cdbbe463a77d2ce57f9983734664d0/AndroidManifest.xml:20:5-22:41
 MERGED from [com.android.support:support-fragment:26.1.0] /root/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/3cebbac7e604e20c64e8253d4a460865/AndroidManifest.xml:21:5-23:60
 MERGED from [com.android.support:support-fragment:26.1.0] /root/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/3cebbac7e604e20c64e8253d4a460865/AndroidManifest.xml:21:5-23:60
 MERGED from [com.android.support:support-core-ui:26.1.0] /root/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/8a3f1926eb8820b2a167cfa31c09c091/AndroidManifest.xml:21:5-23:58
@@ -244,18 +248,18 @@ MERGED from [com.android.support:support-compat:26.1.0] /root/.gradle/caches/tra
 MERGED from [com.android.support:support-compat:26.1.0] /root/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/20a47971d4795778330c5ba5c3b5a94a/AndroidManifest.xml:21:5-23:58
 MERGED from [android.arch.lifecycle:runtime:1.0.0] /root/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/70e58d65c943e651469829b8d5ad4824/AndroidManifest.xml:20:5-22:41
 MERGED from [android.arch.lifecycle:runtime:1.0.0] /root/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/70e58d65c943e651469829b8d5ad4824/AndroidManifest.xml:20:5-22:41
-INJECTED from /home/kszxpo/AndroidStudioProjects/hopes/app/src/main/AndroidManifest.xml
-INJECTED from /home/kszxpo/AndroidStudioProjects/hopes/app/src/main/AndroidManifest.xml
+INJECTED from /root/AndroidStudioProjects/hopes/app/src/main/AndroidManifest.xml
+INJECTED from /root/AndroidStudioProjects/hopes/app/src/main/AndroidManifest.xml
 	tools:overrideLibrary
 		ADDED from [com.android.support:design:26.1.0] /root/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/8aa8d33316a7a7e4726e4526789b9125/AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
-		INJECTED from /home/kszxpo/AndroidStudioProjects/hopes/app/src/main/AndroidManifest.xml
-		ADDED from /home/kszxpo/AndroidStudioProjects/hopes/app/src/main/AndroidManifest.xml
-		INJECTED from /home/kszxpo/AndroidStudioProjects/hopes/app/src/main/AndroidManifest.xml
+		INJECTED from /root/AndroidStudioProjects/hopes/app/src/main/AndroidManifest.xml
+		ADDED from /root/AndroidStudioProjects/hopes/app/src/main/AndroidManifest.xml
+		INJECTED from /root/AndroidStudioProjects/hopes/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /home/kszxpo/AndroidStudioProjects/hopes/app/src/main/AndroidManifest.xml
-		ADDED from /home/kszxpo/AndroidStudioProjects/hopes/app/src/main/AndroidManifest.xml
-		INJECTED from /home/kszxpo/AndroidStudioProjects/hopes/app/src/main/AndroidManifest.xml
+		INJECTED from /root/AndroidStudioProjects/hopes/app/src/main/AndroidManifest.xml
+		ADDED from /root/AndroidStudioProjects/hopes/app/src/main/AndroidManifest.xml
+		INJECTED from /root/AndroidStudioProjects/hopes/app/src/main/AndroidManifest.xml
 meta-data#android.support.VERSION
 ADDED from [com.android.support:cardview-v7:26.1.0] /root/.gradle/caches/transforms-1/files-1.1/cardview-v7-26.1.0.aar/536b0cd1c8f6e583aeabc0985b1cc8d3/AndroidManifest.xml:23:9-25:38
 MERGED from [com.android.support:design:26.1.0] /root/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/8aa8d33316a7a7e4726e4526789b9125/AndroidManifest.xml:26:9-28:38

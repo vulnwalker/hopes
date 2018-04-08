@@ -39,9 +39,7 @@ class MainActivity : AppCompatActivity(){
                 startActivity(i)
                 finish()
         }else{
-            configClass.alert(this@MainActivity,databaseHelper.sqlDelete("member","1=1"))
             databaseHelper.sqlQuery(databaseHelper.sqlDelete("member","1=1"))
-            configClass.alert(this@MainActivity,databaseHelper.sqlRowCount("select * from member"))
         }
     }
 

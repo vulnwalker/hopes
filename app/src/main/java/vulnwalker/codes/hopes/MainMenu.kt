@@ -1,23 +1,38 @@
 package vulnwalker.codes.hopes
 
+import android.content.Intent
 import android.os.Bundle
 import android.support.design.widget.Snackbar
 import android.support.design.widget.NavigationView
+import android.support.v4.app.Fragment
 import android.support.v4.view.GravityCompat
 import android.support.v7.app.ActionBarDrawerToggle
 import android.support.v7.app.AppCompatActivity
 import android.view.Menu
 import android.view.MenuItem
-import android.view.Window
+import android.view.View
 import kotlinx.android.synthetic.main.activity_main_menu.*
 import kotlinx.android.synthetic.main.app_bar_main_menu.*
-import android.widget.AdapterView.OnItemSelectedListener
-import android.widget.Spinner
-import android.widget.ArrayAdapter
+import kotlinx.android.synthetic.main.content_main_menu.*
+import vulnwalker.codes.hopes.base.config
+import vulnwalker.codes.hopes.database.KotlinHelper
+import vulnwalker.codes.hopes.fragment.refAccount.dataAccount
+import vulnwalker.codes.hopes.fragment.refAccount.dataAccountAdapter
+import vulnwalker.codes.hopes.fragment.refAccount.refAccount
+import vulnwalker.codes.hopes.R.string.share
 
 
-class MainMenu : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener {
 
+
+
+
+class MainMenu : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener, refAccount.OnListFragmentInteractionListener {
+
+    private var whereAmI : String = "homePage"
+    val configClass = config()
+    val databaseHelper = KotlinHelper(this)
+
+    lateinit var menuModified : Menu
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main_menu)
@@ -25,6 +40,7 @@ class MainMenu : AppCompatActivity(), NavigationView.OnNavigationItemSelectedLis
         fab.setOnClickListener { view ->
             Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
                     .setAction("Action", null).show()
+
         }
 
         val toggle = ActionBarDrawerToggle(
@@ -33,9 +49,29 @@ class MainMenu : AppCompatActivity(), NavigationView.OnNavigationItemSelectedLis
         toggle.syncState()
 
         nav_view.setNavigationItemSelectedListener(this)
-        val listAccount = arrayOf("SLOT 1", "SLOT 2", "SLOT 3", "SLOT 4", "SLOT 5", "SLOT 6")
 
     }
+
+    override fun onPrepareOptionsMenu(menu: Menu): Boolean {
+        this.menuModified = menu
+        updateMenuItems(this.menuModified)
+        return super.onPrepareOptionsMenu(menu)
+    }
+
+    private fun updateMenuItems(menu: Menu?) {
+        if(menu !=null){
+            if (whereAmI == "homePage") {
+                menu.findItem(R.id.logoutButton).isVisible = true
+                menu.findItem(R.id.addAccountButton).isVisible = false
+            } else {
+                menu.findItem(R.id.logoutButton).isVisible = true
+                menu.findItem(R.id.addAccountButton).isVisible = true
+            }
+        }
+        invalidateOptionsMenu()
+    }
+
+
 
     override fun onBackPressed() {
         if (drawer_layout.isDrawerOpen(GravityCompat.START)) {
@@ -56,8 +92,17 @@ class MainMenu : AppCompatActivity(), NavigationView.OnNavigationItemSelectedLis
         // automatically handle clicks on the Home/Up button, so long
         // as you specify a parent activity in AndroidManifest.xml.
         when (item.itemId) {
-            R.id.logoutButton -> return true
-            else -> return super.onOptionsItemSelected(item)
+            R.id.logoutButton -> {
+                configClass.alert(this@MainMenu,"Logout Sukses !")
+                databaseHelper.sqlQuery(databaseHelper.sqlDelete("member","1=1"))
+                val i = Intent(this@MainMenu, MainActivity::class.java)
+                startActivity(i)
+                finish()
+                return true
+            }
+            else ->{
+                return super.onOptionsItemSelected(item)
+            }
         }
     }
 
@@ -65,7 +110,15 @@ class MainMenu : AppCompatActivity(), NavigationView.OnNavigationItemSelectedLis
         // Handle navigation view item clicks here.
         when (item.itemId) {
             R.id.accountMenu -> {
-                // Handle the camera action
+                addFragment(refAccount(), "ACCOUNT ADS")
+
+                if(parentMainMenu.visibility == View.VISIBLE){
+                    parentMainMenu.visibility = View.GONE
+                }
+                this.title = "ACCOUNT ADS"
+                whereAmI="accountAds"
+                fab.visibility = View.GONE
+                updateMenuItems(this.menuModified)
             }
 
             R.id.settingMenu -> {
@@ -76,4 +129,19 @@ class MainMenu : AppCompatActivity(), NavigationView.OnNavigationItemSelectedLis
         drawer_layout.closeDrawer(GravityCompat.START)
         return true
     }
+
+    fun addFragment(fragment: Fragment, tag: String) {
+        val manager = supportFragmentManager
+        val ft = manager.beginTransaction()
+        ft.addToBackStack(tag)
+        ft.replace(R.id.mainLayout, fragment, tag)
+        ft.commitAllowingStateLoss()
+    }
+
+
+//refAccount
+    override fun onListFragmentInteraction(item: dataAccount.DummyItem) {
+        configClass.alert(this,item.id)
+    }
+
 }

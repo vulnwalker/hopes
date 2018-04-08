@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/kszxpo/AndroidStudioProjects/hopes/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v24/values-v24.xml",
+            "outputFile": "/root/AndroidStudioProjects/hopes/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v24/values-v24.xml",
             "map": [
                 {
                     "source": "/root/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/bbdb22ce6c1de667d44c613a79514bf9/res/values-v24/values-v24.xml",
