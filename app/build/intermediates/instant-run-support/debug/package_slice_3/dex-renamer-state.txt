@@ -1,4 +1,0 @@
-#Sun Apr 01 11:00:18 WIB 2018
-base.0=/home/kszxpo/AndroidStudioProjects/hopes/app/build/intermediates/transforms/dexMerger/debug/3
-path.0=classes.dex
-renamed.0=classes.dex

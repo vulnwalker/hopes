@@ -16,17 +16,11 @@ import kotlinx.android.synthetic.main.app_bar_main_menu.*
 import kotlinx.android.synthetic.main.content_main_menu.*
 import vulnwalker.codes.hopes.base.config
 import vulnwalker.codes.hopes.database.KotlinHelper
-import vulnwalker.codes.hopes.fragment.refAccount.dataAccount
-import vulnwalker.codes.hopes.fragment.refAccount.dataAccountAdapter
 import vulnwalker.codes.hopes.fragment.refAccount.refAccount
-import vulnwalker.codes.hopes.R.string.share
+import vulnwalker.codes.hopes.ui.accountForm
 
 
-
-
-
-
-class MainMenu : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener, refAccount.OnListFragmentInteractionListener {
+class MainMenu : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener {
 
     private var whereAmI : String = "homePage"
     val configClass = config()
@@ -100,6 +94,12 @@ class MainMenu : AppCompatActivity(), NavigationView.OnNavigationItemSelectedLis
                 finish()
                 return true
             }
+            R.id.addAccountButton -> {
+                val i = Intent(this@MainMenu, accountForm::class.java)
+                startActivity(i)
+                finish()
+                return true
+            }
             else ->{
                 return super.onOptionsItemSelected(item)
             }
@@ -140,8 +140,8 @@ class MainMenu : AppCompatActivity(), NavigationView.OnNavigationItemSelectedLis
 
 
 //refAccount
-    override fun onListFragmentInteraction(item: dataAccount.DummyItem) {
-        configClass.alert(this,item.id)
-    }
+//    override fun onListFragmentInteraction(item: dataAccount.DummyItem) {
+//        configClass.alert(this,item.id)
+//    }
 
 }

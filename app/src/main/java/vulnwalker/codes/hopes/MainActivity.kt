@@ -18,6 +18,7 @@ import vulnwalker.codes.hopes.base.config
 import java.util.HashMap
 import vulnwalker.codes.hopes.volley.URL
 import vulnwalker.codes.hopes.database.KotlinHelper
+import java.lang.reflect.Member
 
 
 class MainActivity : AppCompatActivity(){
@@ -35,12 +36,17 @@ class MainActivity : AppCompatActivity(){
 
     fun checkLogin(){
         if(databaseHelper.sqlRowCount("select * from member").equals("1")){
+            syncDatabase(idMember)
             val i = Intent(this@MainActivity, MainMenu::class.java)
                 startActivity(i)
                 finish()
         }else{
             databaseHelper.sqlQuery(databaseHelper.sqlDelete("member","1=1"))
         }
+    }
+    fun syncDatabase(idMember: String){
+
+
     }
 
 

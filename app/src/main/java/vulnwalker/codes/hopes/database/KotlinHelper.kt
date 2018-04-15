@@ -17,7 +17,7 @@ class KotlinHelper(context: Context) : SQLiteOpenHelper(context, DATABASENAME, n
     override fun onCreate(p0: SQLiteDatabase?) {
         val query = "CREATE TABLE member (email TEXT,nama TEXT,nomor_telepon TEXT,no_telepon TEXT,saldo Text,firebase_id Text)"
         p0!!.execSQL(query)
-        p0!!.execSQL("CREATE TABLE account (id TEXT,nama_akun TEXT,pub_id TEXT,banned_id TEXT,popup_id Text,video_id Text)")
+        p0!!.execSQL("CREATE TABLE account (id TEXT,nama_akun TEXT,pub_id TEXT,banner_id TEXT,popup_id Text,video_id Text)")
 
     }
 

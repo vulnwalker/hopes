@@ -1,4 +1,0 @@
-#Sat Mar 31 18:30:49 WIB 2018
-base.0=/home/kszxpo/AndroidStudioProjects/hopes/app/build/intermediates/transforms/dex/release/0
-path.0=classes.dex
-renamed.0=classes.dex

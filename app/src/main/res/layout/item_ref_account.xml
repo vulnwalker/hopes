@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:clickable="true"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="4dp"
+    android:paddingRight="6dp"
+    android:paddingLeft="6dp"
+    android:paddingBottom="4dp">
+    <!--android:background="@drawable/item_list"-->
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/carditem_planet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp">
+
+        <!--Biar teks layout ada di kanan gambar-->
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="5dp"
+                android:layout_centerVertical="true">
+                <TextView
+                    android:id="@+id/idAccount"
+                    android:layout_width="1sp"
+                    android:layout_height="1sp"
+                    android:text=""
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimary"
+                    />
+
+                <TextView
+                    android:id="@+id/namaAccount"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Dzakir Harist"
+
+                    android:textStyle="normal"
+                    android:textColor="@color/colorPrimary"
+                    />
+
+                <TextView
+                    android:id="@+id/publisherID"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Dzakir Harist"
+                    android:textSize="12dp"
+                    android:textColor="@color/colorPrimary"
+                    android:textStyle="normal" />
+                <TextView
+                    android:id="@+id/bannerAdsUnitId"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Dzakir Harist"
+                    android:textSize="12dp"
+                    android:textStyle="normal"
+                    android:textColor="@color/colorPrimary"
+                    />
+                <TextView
+                    android:id="@+id/popupAdsUnitID"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Dzakir Harist"
+                    android:textSize="12dp"
+                    android:textStyle="normal"
+                    android:textColor="@color/colorPrimary"
+                    />
+                <TextView
+                    android:id="@+id/videoAdsUnitId"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Dzakir Harist"
+                    android:textSize="12dp"
+                    android:textStyle="normal"
+                    android:textColor="@color/colorPrimary"
+                    />
+
+            </LinearLayout>
+        </RelativeLayout>
+
+
+    </android.support.v7.widget.CardView>
+</RelativeLayout>
